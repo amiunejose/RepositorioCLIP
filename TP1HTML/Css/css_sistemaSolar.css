@@ -1,0 +1,61 @@
+.div-sistemaSolar
+{
+margin-top: 20px;
+background-color: black;
+}
+
+.div-planeta-mini
+{
+    float:left;
+    width: 9%;
+    margin:10px
+}
+
+.Planeta-mini
+{
+    width:100%;
+    height: 100%;
+}
+
+#div-comencemos
+{
+    background: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/promo/article/2016/11/30/espacio-china.jpg?itok=lV5YY0_V) no-repeat center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color:wheat;
+    font-size: 40px;
+    width: 100%;
+    height:700px;
+}
+
+.div-planeta
+{
+    background: url(https://www.xtrafondos.com/wallpapers/universo-espacio-interestelar-2903.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: thistle;
+    height: 450px;
+    align-items:center;
+    
+}
+
+.div-text
+{
+    background-color: lightslategray;
+    color:black;
+    height: 450px;
+
+}
+

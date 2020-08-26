@@ -1,0 +1,53 @@
+.div-titulo
+{
+    background-color:#062b81;
+    color: #fae0e0;
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    margin: 1px;
+}
+
+.texto-no-margin
+{
+    margin: 0px;
+}
+
+.div-nav-bar
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+}
+
+.link-limpio
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+body
+{
+    background-attachment: fixed;  
+}
+
+.div-centrado
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div-izquierdo
+{
+    float:left;
+    width: 50%;
+}
+
+.div-derecho
+{
+    float: right;
+    width: 50%;
+}
