@@ -3,7 +3,8 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sistema Solar</title>
     <link href="Css/css_general.css" rel="stylesheet" />
     <link href="Css/css_sistemaSolar.css" rel="stylesheet" />
 
@@ -12,52 +13,73 @@
 </head>
 
 <body background="Imagenes/inicio_fondoEspacio.jpg" >
+
+<div id="div-general">
+
+<div  id="div-maestro" >
+
     <div class="div-titulo" style="text-align: center;">
         <h1 class="texto-no-margin">SPACESHIP!</h1>
         <h4 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h4>
     </div>
 
+
+
     <div style="background-color: rgb(0, 0, 0); ">
 
-        <div class=div-nav-bar style="float:left; margin-left: 32%;"> 
-            <a class="link-limpio" href="index.html">Home </a>
-        </div>
-        <div class=div-nav-bar style="float:left">
-            <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
-        </div>
-        <div class=div-nav-bar>
-            <a class="link-limpio" href="constelaciones.html">Constelaciones (muy pronto)</a>
-        </div>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <th><div class=div-nav-bar> 
+                    <a class="link-limpio" href="index.html">Home </a>
+                </div></th>
+                <th><div class=div-nav-bar>
+                    <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
+                </div></th>
+                <th><div class=div-nav-bar>
+                    <a class="link-limpio" href="constelaciones.html">Constelaciones (muy pronto)</a>
+                </div></th>
+            </tr>
 
+        </table>
+        
+        
+        
     </div>
-    <div class="div-sistemaSolar">
-        <a href="#mercurio"><div class="div-planeta-mini" style="width:8%; height:8%;" > <img class="Planeta-mini" src="Imagenes/Mercurio.png" alt=mercurio> </div></a>
-        <a href="#venus"><div class="div-planeta-mini" style="width:10%; height:10%;"> <img class="Planeta-mini" src="Imagenes/Venus.png" alt=venus> </div></a>
-        <a href="#tierra"><div class="div-planeta-mini" style="width:11%; height:11%; margin-left:0px; margin-right:0px;"> <img class="Planeta-mini" src="Imagenes/Tierra.png" alt=tierra> </div></a>
-        <a href="#marte"><div class="div-planeta-mini" style="width:7%; height:7%;"> <img class="Planeta-mini" src="Imagenes/Marte.png" alt=marte> </div></a>
-        <a href="#jupiter"><div class="div-planeta-mini"> <img class="Planeta-mini" src="Imagenes/Jupiter.png" alt=jupiter> </div></a>
-        <a href="#saturno"><div class="div-planeta-mini" style="width:14%; height:14%;"> <img class="Planeta-mini" src="Imagenes/Saturno.png" alt=saturno> </div></a>
-        <a href="#urano"><div class="div-planeta-mini"> <img class="Planeta-mini" src="Imagenes/Urano.png" alt=urano> </div></a>
-        <a href="#neptuno"><div class="div-planeta-mini" style="width:7%; height:7%;"> <img class="Planeta-mini" src="Imagenes/Neptuno.png" alt=neptuno> </div></a>
-        <a href="#pluton"><div class="div-planeta-mini" style="width:7%; height:7%;"> <img class="Planeta-mini" src="Imagenes/Pluton.png" alt=pluton> </div></a>
-    </div>
+
+
+
+        <a href="#mercurio"><div> <img class="Planeta-mini" id="mercurio-mini" src="Imagenes/Mercurio.png" alt=mercurio> </div></a>
+        <a href="#venus"><div> <img class="Planeta-mini" id="venus-mini" src="Imagenes/Venus.png" alt=venus> </div></a>
+        <a href="#tierra"><div> <img class="Planeta-mini" id="tierra-mini" src="Imagenes/Tierra.png" alt=tierra> </div></a>
+        <a href="#marte"><div> <img class="Planeta-mini" id="marte-mini" src="Imagenes/Marte.png" alt=marte> </div></a>
+        <a href="#jupiter"><div> <img class="Planeta-mini" id="jupiter-mini" src="Imagenes/Jupiter.png" alt=jupiter> </div></a>
+        <a href="#saturno"><div> <img class="Planeta-mini" id="saturno-mini" src="Imagenes/Saturno.png" alt=saturno> </div></a>
+        <a href="#urano"><div> <img class="Planeta-mini" id="urano-mini" src="Imagenes/Urano.png" alt=urano> </div></a>
+        <a href="#neptuno"><div> <img class="Planeta-mini" id="neptuno-mini" src="Imagenes/Neptuno.png" alt=neptuno> </div></a>
+        <a href="#pluton"><div> <img class="Planeta-mini" id="pluton-mini" src="Imagenes/Pluton.png" alt=pluton> </div></a>
+
+
+
 
     <div id="div-comencemos" background="Imagenes/espacio_oscuro.png">
-
-        <p style="color:black">COMENCEMOS</p>
+        <div style="background-color: darkgrey; max-width: 600px;"><p style="color:black; text-align: center">COMENCEMOS</p></div>
     </div>
 
+
+
+
+
         
-        <div style="margin-top:100px;" id="div-mercurio" class="div-centrado div-izquierdo div-planeta">
+        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
             <a name="mercurio"></a>
             <h1>Mercurio</h1>
-            <img src="Imagenes/Mercurio.png" alt=mercurio style="width:35%; height:50%;">
+            <img src="Imagenes/Mercurio.png" alt=mercurio id=img-mercurio>
         </div>
         <div style="margin-top:100px" class="div-centrado div-derecho div-text div-texto-importante">
             <p>Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño.
                 Forma parte de los denominados planetas interiores o terrestres y carece de satélites naturales al igual que Venus.
                 Se conocía muy poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10
-                y se hicieron observaciones con radar y radiotelescopios.
+                y se hicieron observaciones con radar y radiotelescopios.</p>
             
                 <br>Diametro : 4879,4 km
                 <br>Densidad: 5,43 g/cm³
@@ -65,14 +87,14 @@
                 <br>Gravedad: 3,7 m/s²1​ y 0,38 g
                 <br>
                 <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)">Más info!</a>
-            </p>
+            
         </div>
 
         
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
+        <div style="margin-top:100px;" id="div-" class="div-centrado div-derecho div-planeta">
             <a name="venus"></a>
             <h1>Venus</h1>
-            <img src="Imagenes/Venus.png" alt=venus style="width:45%; height:65%;">
+            <img src="Imagenes/Venus.png" alt=venus id=img-venus>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
             <p>Venus es el segundo planeta del sistema solar en orden de distancia desde el Sol,
@@ -89,14 +111,14 @@
                 <br>Gravedad: 8,87 m/s²
 
                 <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" >Más info!</a>
-
-
         </div>
+
+
 
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
             <a name="tierra"></a>
             <h1>Tierra</h1>
-            <img src="Imagenes/Tierra.png" alt=tierra style="width:55%; height:60%;">
+            <img src="Imagenes/Tierra.png" alt=tierra id=img-tierra>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
             <p>La Tierra (del latín Terra, deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad)
@@ -110,7 +132,7 @@
                    y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta,
                     favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono 
                     que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida 
-                    n la Tierra. Las propiedades físicas de la Tierra, la historia geológica y su órbita han permitido
+                    en la Tierra. Las propiedades físicas de la Tierra, la historia geológica y su órbita han permitido
                      que la vida siga existiendo. Se estima que el planeta seguirá siendo capaz de sustentar vida durante
                       otros 500 millones de años</p>
 
@@ -121,13 +143,14 @@
 
                       <br>
                       <a href="https://es.wikipedia.org/wiki/Tierra">Más info!</a>
-
         </div>
+
+
 
         <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
             <a name="marte"></a>
             <h1>Marte</h1>
-            <img src="Imagenes/Marte.png" alt=marte style="width:35%; height:50%;">
+            <img src="Imagenes/Marte.png" alt=marte id=img-marte>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
             <p>Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño
@@ -147,13 +170,12 @@
                         <br>Gravedad: 3,711 m/s²
                         <br>
                         <a href="https://es.wikipedia.org/wiki/Marte_(planeta)">Más info!</a>
-
         </div>
 
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
             <a name="jupiter"></a>
             <h1>Jupiter</h1>
-            <a name="Jupiter"></a><img src="Imagenes/Jupiter.png" alt=jupiter style="width:50%; height:70%;">
+            <a name="Jupiter"></a><img src="Imagenes/Jupiter.png" alt=jupiter id=img-jupiter>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
             <p>Júpiter es el quinto planeta del sistema solar. Forma parte de los denominados planetas
@@ -179,7 +201,7 @@
         <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
             <a name="saturno"></a>
             <h1>Saturno</h1>
-            <img src="Imagenes/Saturno.png" alt=saturno style="width:80%; height:55%;">
+            <img src="Imagenes/Saturno.png" alt=saturno id=img-saturno>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
             <p>Saturno es el sexto planeta del sistema solar contando desde el Sol, 
@@ -204,7 +226,7 @@
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
             <a name="urano"></a>
             <h1>Urano</h1>
-            <img src="Imagenes/Urano.png" alt=urano style="width:50%; height:70%;">
+            <img src="Imagenes/Urano.png" alt=urano id=img-urano>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
             <p>Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño,
@@ -225,12 +247,14 @@
                        <a href="https://es.wikipedia.org/wiki/Urano_(planeta)">Más info!</a>
         </div>
 
+
+
         <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
             <a name="neptuno"></a>
             <h1>Neptuno</h1>
-            <img src="Imagenes/Neptuno.png" alt=neptuno style="width:40%; height:58%;">
+            <img src="Imagenes/Neptuno.png" alt=neptuno id=img-neptuno>
         </div>
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text">
+        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
             <p>Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema 
                 solar. Forma parte de los denominados planetas exteriores, y dentro de estos,
                  es uno de los gigantes helados, y es el primero que fue descubierto gracias a 
@@ -255,14 +279,12 @@
                       <br>Gravedad: 11,15 m/s²
                       <br>
                       <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)">Más info!</a>
-
-
         </div>
 
         <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
             <a name="pluton"></a>
             <h1>Pluton</h1>
-            <img src="Imagenes/Pluton.png" alt=pluton style="width:40%; height:55%;">
+            <img src="Imagenes/Pluton.png" alt=pluton id=img-pluton>
         </div>
         <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
             <p>Plutón, designado (134340) Pluto, es un planeta enano del sistema solar
@@ -283,15 +305,9 @@
                         <br>Gravedad: 0,6 m/s²
                         <br>
                         <a href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)">Más info!</a>
-
         </div>
+</div>
 
-
-    
-
-
-
-    
-    
+</div>
 </body>
 </html>

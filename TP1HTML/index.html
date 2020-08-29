@@ -5,6 +5,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
     <link href="Css/css_inicio.css" rel="stylesheet" />
     <link href="Css/css_general.css" rel="stylesheet" />
@@ -13,47 +18,47 @@
 </head>
 <body background="Imagenes/inicio_fondoEspacio.jpg">
 
-    <div class="div-titulo" style="text-align: center;">
+    <div class="div-titulo container-fluid" style="text-align: center;">
         <h1 class="texto-no-margin">SPACESHIP!</h1>
-        <h4 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h4>
+        <h6 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h6>
     </div>
 
-    <div style="background-color: rgb(0, 0, 0); ">
 
-        <div class=div-nav-bar style="float:left; margin-left: 32%;"> 
-            <a class="link-limpio" href="index.html">Home </a>
+    <div class="container-fluid" style="background-color: rgb(0, 0, 0); ">
+
+        <div class="row ">
+            <div class="div-nav-bar col-4"> 
+                <a class="link-limpio" href="index.html">Home </a>
+            </div>
+            <div class="div-nav-bar col-4" >
+                <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
+            </div>
+            <div class="div-nav-bar col-4">
+                <a class="link-limpio" href="constelaciones.html">Constelaciones (muy pronto)</a>
+            </div> 
         </div>
-        <div class=div-nav-bar style="float:left">
-            <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
+    </div>
+
+
+    <div class="container-xl">
+        <div class="row">
+            <div class="div-centrado col-6" id="div-descripcion">
+                <h1>¿Qué es SPACESHIP?</h4>
+            </div>
+            <div class="div-centrado col-6" id="div-contenido">
+                <p>Nuestro universo es enorme, pero eso no detiene nuestras ganas de cada día conocer un poco mas de el.
+                    Es por eso que nace SPACESHIP, para compartir información acerca de lo que rodea a nuestro planeta,
+                    descubrir quienes habitan nuestro barrio estelar e informarse sobre nuestro sistema solar.
+                    
+                    <br>
+                    <br>
+                    <i>"Lo que nos hace grandes es entender lo pequeños que somos"</i>
+                </p>
+            </div>
         </div>
-        <div class=div-nav-bar>
-            <a class="link-limpio" href="constelaciones.html">Constelaciones (muy pronto)</a>
-        </div>
-
-
-
     </div>
-
-    <div class="div-centrado" id="div-descripcion">
-        <h1>¿Qué es SPACESHIP?</h4>
-    </div>
-    <div class="div-centrado" id=div-contenido>
-        <p>Nuestro universo es enorme, pero eso no detiene nuestras ganas de cada día conocer un poco mas de el.
-            Es por eso que nace SPACESHIP, para compartir información acerca de lo que rodea a nuestro planeta,
-            descubrir quienes habitan nuestro barrio estelar e informarse sobre nuestro sistema solar.
-            
-            <br>
-            <br>
-            <i>"Lo que nos hace grandes es entender lo pequeños que somos"</i>
-        </p>
-    </div>
-
-
 
     
-
-
-
 
 
 </body>

@@ -3,8 +3,15 @@
     background-color:#062b81;
     color: #fae0e0;
     font-family: 'Space Mono', monospace;
-    font-size: 30px;
+    font-size: 40px;
     margin: 1px;
+}
+
+th
+{
+    padding:8px;
+    width: 33%;
+    text-align: right;
 }
 
 .texto-no-margin
@@ -14,10 +21,9 @@
 
 .div-nav-bar
 {
-    margin-left: 30px;
-    margin-right: 30px;
     font-family: "Space Mono", monospace;
-    font-size: 15px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .link-limpio
@@ -29,6 +35,10 @@
 body
 {
     background-attachment: fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .div-centrado
@@ -38,6 +48,7 @@ body
     align-content: center;
     flex-direction: column;
     text-align: center;
+    height: 16%;
 }
 
 .div-izquierdo
@@ -54,5 +65,10 @@ body
 
 .div-texto-importante
 {
-    font-size: 18px;
+    font-size: 1em;
+}
+
+p
+{
+    font-size: 100%;
 }
