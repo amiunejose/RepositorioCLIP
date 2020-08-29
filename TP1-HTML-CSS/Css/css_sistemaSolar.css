@@ -1,12 +1,8 @@
 .Planeta-mini
 {
-    width: 120px;
-    height: 120px;
-    float:left;
-    margin-left:5px;
     margin-top:10px;
     margin-bottom:10px;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .Planeta-mini:hover
@@ -16,152 +12,158 @@
 
 #mercurio-mini
 {
-    width:80px;
-    height:80px;
+    width:auto;
+    height:12vh;
+
 }
 
 #venus-mini
 {
-    width:105px;
-    height:105px;
+    width:auto;
+    height:17vh;
 }
 
 #tierra-mini
 {
-    width:120px;
-    height:90px;
+    width:auto;
+    height:14vh;
 }
 
 #marte-mini
 {
-    width:80px;
-    height:80px;
+    width:auto;
+    height:12vh;
     margin-top:15px;
 }
 
 #jupiter-mini
 {
-    width:100px;
-    height:100px;
-    margin-left:100px;
+    width:auto;
+    height:15vh;
 }
 
 #saturno-mini
 {
-    width:165px;
-    height:90px;
-    margin-left:30px;
+    width:auto;
+    height:11vh;
 }
 
 #urano-mini
 {
-    width:110px;
-    height:110px;
-    margin-left:120px;
+    width:auto;
+    height:15vh;
 }
 
 #neptuno-mini
 {
-    width:90px;
-    height:90px;
+    width:auto;
+    height:13vh;
     margin-top:20px;
 }
 
 #pluton-mini
 {
-    width:90px;
-    height:90px;
-    margin-left:80px
+    width:auto;
+    height:12vh;
 }
+
+
+
+
+
 
 
 
 
 #div-comencemos
 {
-    background: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/promo/article/2016/11/30/espacio-china.jpg?itok=lV5YY0_V) no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/promo/article/2016/11/30/espacio-china.jpg?itok=lV5YY0_V)
+    no-repeat center;
+
 
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
-    background-color: black;
     color:wheat;
-    font-size: 40px;
-    width: 100%;
+    font-size: 30px;
     height:700px;
 }
 
 .div-planeta
 {
-    background: url(https://www.xtrafondos.com/wallpapers/universo-espacio-interestelar-2903.jpg) no-repeat center;
+    background: url(https://www.xtrafondos.com/wallpapers/universo-espacio-interestelar-2903.jpg)
+    no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: thistle;
     align-items:center;
-    height: 450px;
+    height: 550px;
 }
+
+
+
+
+
+
+
 
 
 #img-mercurio
 {
-    width:200px;
+    width:auto;
     height:200px ;
 }
 
 #img-venus
 {
-    width:310px;
+    width:auto;
     height:310px ;
 }
 
 #img-tierra
 {
-    width:360px;
+    width:auto;
     height:270px ;
 }
 
 #img-marte
 {
-    width:190px;
+    width:auto;
     height:190px ;
 }
 
 #img-jupiter
 {
-    width:330px;
-    height:330px ;
+    width:auto;
+    height:300px ;
 }
 
 #img-saturno
 {
-    width:550px;
-    height:280px ;
+    width:auto;
+    height:160px ;
 }
 
 #img-urano
 {
-    width:330px;
+    width:auto;
     height:330px ;
 }
 
 #img-neptuno
 {
-    width:250px;
-    height:250px ;
+    width:auto;
+    height:250px;
 }
+
 
 #img-pluton
 {
-    width:180px;
+    width:auto;
     height:180px ;
 }
 
@@ -178,25 +180,24 @@
 {
     background-color: lightslategray;
     color:black;
-    height: 450px;
-}
-
-#div-maestro
-{
-    width: 1328px;
-    align-items: center;
-}
-
-#div-general
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 550px;
 }
 
 p
 {
     margin:1em;
     text-align: justify;
+}
+
+.row-vacia
+{
+    height: 100px;
+
+}
+
+#master
+{
+    margin-left: auto;
+    margin-right: auto;
+
 }

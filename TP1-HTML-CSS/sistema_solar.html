@@ -3,8 +3,14 @@
 <html>
 
 <head>
-
     <title>Sistema Solar</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link href="Css/css_general.css" rel="stylesheet" />
     <link href="Css/css_sistemaSolar.css" rel="stylesheet" />
 
@@ -14,300 +20,348 @@
 
 <body background="Imagenes/inicio_fondoEspacio.jpg" >
 
-<div id="div-general">
 
-<div  id="div-maestro" >
+<div class="container-fluid "id="master">
 
-    <div class="div-titulo" style="text-align: center;">
-        <h1 class="texto-no-margin">SPACESHIP!</h1>
+    <div class="div-titulo container-fluid" style="text-align: center;">
+        <h2 class="texto-no-margin">SPACESHIP!</h2>
         <h4 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h4>
     </div>
 
 
 
-    <div style="background-color: rgb(0, 0, 0); ">
+    <div class="container-fluid" style="background-color: rgb(0, 0, 0); ">
 
-        <table style="width: 100%; border-collapse: collapse;">
-            <tr>
-                <th><div class=div-nav-bar> 
+        <div class="row">
+            <div class="div-nav-bar col-sm-4 col-12 "> 
                     <a class="link-limpio" href="index.html">Home </a>
-                </div></th>
-                <th><div class=div-nav-bar>
+            </div>
+            <div class="div-nav-bar col-sm-4 col-12">
                     <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
-                </div></th>
-                <th><div class=div-nav-bar>
+            </div>
+            <div class="div-nav-bar col-sm-4 col-12">
                     <a class="link-limpio" href="constelaciones.html">Constelaciones (muy pronto)</a>
-                </div></th>
-            </tr>
+            </div>
+        </div>
+           
 
-        </table>
         
         
         
     </div>
 
 
+<div class="container-fluid" > 
+    <div class="row">
 
-        <a href="#mercurio"><div> <img class="Planeta-mini" id="mercurio-mini" src="Imagenes/Mercurio.png" alt=mercurio> </div></a>
-        <a href="#venus"><div> <img class="Planeta-mini" id="venus-mini" src="Imagenes/Venus.png" alt=venus> </div></a>
-        <a href="#tierra"><div> <img class="Planeta-mini" id="tierra-mini" src="Imagenes/Tierra.png" alt=tierra> </div></a>
-        <a href="#marte"><div> <img class="Planeta-mini" id="marte-mini" src="Imagenes/Marte.png" alt=marte> </div></a>
-        <a href="#jupiter"><div> <img class="Planeta-mini" id="jupiter-mini" src="Imagenes/Jupiter.png" alt=jupiter> </div></a>
-        <a href="#saturno"><div> <img class="Planeta-mini" id="saturno-mini" src="Imagenes/Saturno.png" alt=saturno> </div></a>
-        <a href="#urano"><div> <img class="Planeta-mini" id="urano-mini" src="Imagenes/Urano.png" alt=urano> </div></a>
-        <a href="#neptuno"><div> <img class="Planeta-mini" id="neptuno-mini" src="Imagenes/Neptuno.png" alt=neptuno> </div></a>
-        <a href="#pluton"><div> <img class="Planeta-mini" id="pluton-mini" src="Imagenes/Pluton.png" alt=pluton> </div></a>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#mercurio"><div> <img class="Planeta-mini" id="mercurio-mini" src="Imagenes/Mercurio.png" alt=mercurio> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#venus"><div> <img class="Planeta-mini" id="venus-mini" src="Imagenes/Venus.png" alt=venus> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#tierra"><div> <img class="Planeta-mini" id="tierra-mini" src="Imagenes/Tierra.png" alt=tierra> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#marte"><div> <img class="Planeta-mini" id="marte-mini" src="Imagenes/Marte.png" alt=marte> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#jupiter"><div> <img class="Planeta-mini" id="jupiter-mini" src="Imagenes/Jupiter.png" alt=jupiter> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#saturno"><div> <img class="Planeta-mini" id="saturno-mini" src="Imagenes/Saturno.png" alt=saturno> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#urano"><div> <img class="Planeta-mini" id="urano-mini" src="Imagenes/Urano.png" alt=urano> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#neptuno"><div> <img class="Planeta-mini" id="neptuno-mini" src="Imagenes/Neptuno.png" alt=neptuno> </div></a></div>
+       <div class="col-xl col-sm-4 col-md-3 col-6"><a href="#pluton"><div> <img class="Planeta-mini" id="pluton-mini" src="Imagenes/Pluton.png" alt=pluton> </div></a></div>
+    </div>
+    
 
-
+</div>
+        
 
 
     <div id="div-comencemos" background="Imagenes/espacio_oscuro.png">
-        <div style="background-color: darkgrey; max-width: 600px;"><p style="color:black; text-align: center">COMENCEMOS</p></div>
+        <div class="container" style="background-color: darkgrey; color:black; text-align: center;">COMENCEMOS</div>
     </div>
 
 
 
 
+        <div class="row row-vacia"></div>
 
-        
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
-            <a name="mercurio"></a>
-            <h1>Mercurio</h1>
-            <img src="Imagenes/Mercurio.png" alt=mercurio id=img-mercurio>
-        </div>
-        <div style="margin-top:100px" class="div-centrado div-derecho div-text div-texto-importante">
-            <p>Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño.
-                Forma parte de los denominados planetas interiores o terrestres y carece de satélites naturales al igual que Venus.
-                Se conocía muy poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10
-                y se hicieron observaciones con radar y radiotelescopios.</p>
+        <div class="row">
             
-                <br>Diametro : 4879,4 km
-                <br>Densidad: 5,43 g/cm³
-                <br>Área de superficie: 7,5 × 107 km²
-                <br>Gravedad: 3,7 m/s²1​ y 0,38 g
-                <br>
-                <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)">Más info!</a>
-            
-        </div>
-
-        
-        <div style="margin-top:100px;" id="div-" class="div-centrado div-derecho div-planeta">
-            <a name="venus"></a>
-            <h1>Venus</h1>
-            <img src="Imagenes/Venus.png" alt=venus id=img-venus>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
-            <p>Venus es el segundo planeta del sistema solar en orden de distancia desde el Sol,
-                el sexto en cuanto a tamaño, ordenados de mayor a menor. Al igual que Mercurio,
-                carece de satélites naturales. Recibe su nombre en honor a Venus, la diosa romana del amor
-                (gr. Afrodita). Se trata de un planeta de tipo rocoso y terrestre, llamado con frecuencia
-                el planeta hermano de la Tierra, ya que ambos son similares en cuanto a tamaño, masa y composición
-                , aunque totalmente diferentes en cuestiones térmicas y atmosféricas (la temperatura media de Venus
-                es de 463,85 ºC).</p>
-
-                <br>Diámetro: 12 103,6 km
-                <br>Densidad: 5,24 g/cm³
-                <br>Área de superficie: 4,60 × 10^8 km²
-                <br>Gravedad: 8,87 m/s²
-
-                <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" >Más info!</a>
-        </div>
-
-
-
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
-            <a name="tierra"></a>
-            <h1>Tierra</h1>
-            <img src="Imagenes/Tierra.png" alt=tierra id=img-tierra>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
-            <p>La Tierra (del latín Terra, deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad)
-                 es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita
-                  más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar.
-                   También es el mayor de los cuatro terrestres o rocosos.
-
-                La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil
-                 millones de años después.​ Es el hogar de millones de especies, incluidos los seres humanos
-                  y actualmente el único cuerpo astronómico donde se conoce la existencia de vida.​ La atmósfera
-                   y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta,
-                    favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono 
-                    que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida 
-                    en la Tierra. Las propiedades físicas de la Tierra, la historia geológica y su órbita han permitido
-                     que la vida siga existiendo. Se estima que el planeta seguirá siendo capaz de sustentar vida durante
-                      otros 500 millones de años</p>
-
-                      <br>Diámetro: 12 756 km
-                      <br>Densidad: 5,515 g/cm³
-                      <br>Área de superficie: 510 072 000 km²
-                      <br>Gravedad: 9,780327 m/s²
-
-                      <br>
-                      <a href="https://es.wikipedia.org/wiki/Tierra">Más info!</a>
-        </div>
-
-
-
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
-            <a name="marte"></a>
-            <h1>Marte</h1>
-            <img src="Imagenes/Marte.png" alt=marte id=img-marte>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
-            <p>Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño
-                 del sistema solar, después de Mercurio. Recibió su nombre en homenaje al dios de
-                  la guerra de la mitología romana (Ares en la mitología griega), y también es conocido
-                   como «el planeta rojo» debido a la apariencia rojiza que le confiere el óxido de
-                    hierro predominante en su superficie. Marte es el planeta interior más alejado del Sol.
-                     Es un planeta telúrico con una atmósfera delgada de dióxido de carbono, y posee dos
-                      satélites pequeños y de forma irregular, Fobos y Deimos (hijos del dios griego),
-                       que podrían ser asteroides capturados​ similares al asteroide troyano (5261) Eureka.
-                        Sus características superficiales recuerdan tanto a los cráteres de la Luna como a
-                        los valles, desiertos y casquetes polares de la Tierra.</p>
-
-                        <br>Diámetro: 6794,4 km
-                        <br>Densidad: 3,9335 g/cm³
-                        <br>Área de superficie: 144 798 500 km²
-                        <br>Gravedad: 3,711 m/s²
-                        <br>
-                        <a href="https://es.wikipedia.org/wiki/Marte_(planeta)">Más info!</a>
-        </div>
-
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
-            <a name="jupiter"></a>
-            <h1>Jupiter</h1>
-            <a name="Jupiter"></a><img src="Imagenes/Jupiter.png" alt=jupiter id=img-jupiter>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
-            <p>Júpiter es el quinto planeta del sistema solar. Forma parte de los denominados planetas
-                 exteriores o gaseosos. Recibe su nombre del dios romano Júpiter (Zeus en la mitología griega).
-
-                Se trata del planeta que ofrece un mayor brillo a lo largo del año dependiendo de su fase.
-                 Es, además, después del Sol, el mayor cuerpo celeste del sistema solar, con una masa
-                  casi dos veces y media la de los demás planetas juntos (con una masa 318 veces mayor
-                   que la de la Tierra y tres veces mayor que la de Saturno, además de ser, en cuanto
-                    a volumen, 1317 veces más grande que la Tierra). También es el planeta más antiguo 
-                    del sistema solar, siendo incluso más antiguo que el sol; este descubrimiento fue 
-                    realizado por investigadores de la universidad de Münster en Alemania.</p>
-
-                    <br>Diámetro: 142 984 km
-                    <br>Densidad: 1336 kg/m³
-                    <br>Área de superficie: 6,41 × 10^10 km²
-                    <br>Gravedad: 24.79 m/s²
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="mercurio"></a>
+                <h1>Mercurio</h1>
+                <img src="Imagenes/Mercurio.png" alt=mercurio id=img-mercurio>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Mercurio es el planeta del sistema solar más próximo al Sol y el más pequeño.
+                    Forma parte de los denominados planetas interiores o terrestres y carece de satélites naturales al igual que Venus.
+                    Se conocía muy poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10
+                    y se hicieron observaciones con radar y radiotelescopios.</p>
+                
+                    <br>Diametro : 4879,4 km
+                    <br>Densidad: 5,43 g/cm³
+                    <br>Área de superficie: 7,5 × 107 km²
+                    <br>Gravedad: 3,7 m/s²1​ y 0,38 g
                     <br>
-                    <a href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)">Más info!</a>
-
-        </div>
-
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
-            <a name="saturno"></a>
-            <h1>Saturno</h1>
-            <img src="Imagenes/Saturno.png" alt=saturno id=img-saturno>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
-            <p>Saturno es el sexto planeta del sistema solar contando desde el Sol, 
-                el segundo en tamaño y masa después de Júpiter y el único con un sistema 
-                de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno.
-                 Forma parte de los denominados planetas exteriores o gaseosos. El aspecto más
-                  característico de Saturno son sus brillantes anillos. Antes de la invención del telescopio,
-                   Saturno era el más lejano de los planetas conocidos y, a simple vista, no parecía luminoso
-                    ni interesante. El primero en observar los anillos fue Galileo en 1610,1​ pero la baja
-                     inclinación de los anillos y la baja resolución de su telescopio le hicieron pensar
-                      en un principio que se trataba de grandes lunas. Christiaan Huygens, con mejores medios
-                       de observación, pudo en 1659 observar con claridad los anillos.</p>
-
-                       <br>Diámetro: 120 536 km
-                       <br>Densidad: 690 kg/m³
-                       <br>Área de superficie: 4,38×10^16 m²
-                       <br>Gravedad: 10,44 m/s²
-                       <br>
-                       <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)">Más info!</a>
-        </div>
-
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
-            <a name="urano"></a>
-            <h1>Urano</h1>
-            <img src="Imagenes/Urano.png" alt=urano id=img-urano>
-        </div>
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
-            <p>Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño,
-                 y el cuarto más masivo. Se llama así en honor de la divinidad griega del
-                  cielo Urano (del griego antiguo Οὐρανός), el padre de Crono (Saturno) y 
-                  el abuelo de Zeus (Júpiter). Aunque es detectable a simple vista en el cielo nocturno,
-                   no fue catalogado como planeta por los astrónomos de la antigüedad debido a su escasa
-                    luminosidad y a la lentitud de su órbita. Sir William Herschel anunció su
-                     descubrimiento el 13 de marzo de 1781, ampliando las fronteras entonces
-                      conocidas del sistema solar, por primera vez en la historia moderna.
-                       Urano es también el primer planeta descubierto por medio de un telescopio.</p>
-
-                       <br>Diámetro: 51.118 km
-                       <br>Densidad: 1,274 g/cm³
-                       <br>Área de superficie: 8,115 6×10^9 km²
-                       <br>Gravedad: 8,69 m/s²
-                       <br>
-                       <a href="https://es.wikipedia.org/wiki/Urano_(planeta)">Más info!</a>
+                    <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)">Más info!</a>
+            </div>
         </div>
 
 
+        
+        <div class="row row-vacia"></div>
 
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-planeta">
-            <a name="neptuno"></a>
-            <h1>Neptuno</h1>
-            <img src="Imagenes/Neptuno.png" alt=neptuno id=img-neptuno>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="venus"></a>
+                <h1>Venus</h1>
+                <img src="Imagenes/Venus.png" alt=venus id=img-venus>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Venus es el segundo planeta del sistema solar en orden de distancia desde el Sol,
+                    el sexto en cuanto a tamaño, ordenados de mayor a menor. Al igual que Mercurio,
+                    carece de satélites naturales. Recibe su nombre en honor a Venus, la diosa romana del amor
+                    (gr. Afrodita). Se trata de un planeta de tipo rocoso y terrestre, llamado con frecuencia
+                    el planeta hermano de la Tierra, ya que ambos son similares en cuanto a tamaño, masa y composición
+                    , aunque totalmente diferentes en cuestiones térmicas y atmosféricas (la temperatura media de Venus
+                    es de 463,85 ºC).</p>
+    
+                    <br>Diámetro: 12 103,6 km
+                    <br>Densidad: 5,24 g/cm³
+                    <br>Área de superficie: 4,60 × 10^8 km²
+                    <br>Gravedad: 8,87 m/s²
+    
+                    <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" >Más info!</a>
+            </div>
         </div>
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-text div-texto-importante">
-            <p>Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema 
-                solar. Forma parte de los denominados planetas exteriores, y dentro de estos,
-                 es uno de los gigantes helados, y es el primero que fue descubierto gracias a 
-                 predicciones matemáticas. Su nombre fue puesto en honor al dios romano del mar —Neptuno—,
-                  y es el cuarto planeta en diámetro y el tercero más grande en masa. Su masa es diecisiete
-                   veces la de la Tierra y ligeramente mayor que la de su planeta «gemelo» Urano, 
-                   que tiene quince masas terrestres y no es tan denso. En promedio, Neptuno orbita el Sol
-                    a una distancia de 30,1 ua. Su símbolo astronómico es ♆, una versión estilizada del 
-                    tridente del dios Neptuno.
+        
+        
+        <div class="row row-vacia"></div>
 
-                Tras el descubrimiento de Urano, se observó que las órbitas de Urano,
-                 Saturno y Júpiter no se comportaban tal como predecían las leyes de Kepler
-                  y de Newton. Adams y Le Verrier, de forma independiente, calcularon la posición
-                   de un hipotético planeta, Neptuno, que finalmente fue encontrado por Galle, el 23
-                    de septiembre de 1846, a menos de un grado de la posición calculada por Le Verrier.
-                     Más tarde se advirtió que Galileo ya había observado Neptuno en 1612, pero lo había
-                      confundido con una estrella.</p>
 
-                      <br>Diámetro: 49.572 km
-                      <br>Densidad: 1,64 g/cm³
-                      <br>Área de superficie: 7,65×10^9km²
-                      <br>Gravedad: 11,15 m/s²
-                      <br>
-                      <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)">Más info!</a>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="tierra"></a>
+                <h1>Tierra</h1>
+                <img src="Imagenes/Tierra.png" alt=tierra id=img-tierra>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>La Tierra (del latín Terra, deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad)
+                     es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita
+                      más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar.
+                       También es el mayor de los cuatro terrestres o rocosos.
+    
+                    La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil
+                     millones de años después.​ Es el hogar de millones de especies, incluidos los seres humanos
+                      y actualmente el único cuerpo astronómico donde se conoce la existencia de vida.​ La atmósfera
+                       y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta,
+                        favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono 
+                        que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida 
+                        en la Tierra. Las propiedades físicas de la Tierra, la historia geológica y su órbita han permitido
+                         que la vida siga existiendo. Se estima que el planeta seguirá siendo capaz de sustentar vida durante
+                          otros 500 millones de años</p>
+    
+                          <br>Diámetro: 12 756 km
+                          <br>Densidad: 5,515 g/cm³
+                          <br>Área de superficie: 510 072 000 km²
+                          <br>Gravedad: 9,780327 m/s²
+    
+                          <br>
+                          <a href="https://es.wikipedia.org/wiki/Tierra">Más info!</a>
+            </div>
         </div>
+        
 
-        <div style="margin-top:100px;" class="div-centrado div-izquierdo div-planeta">
-            <a name="pluton"></a>
-            <h1>Pluton</h1>
-            <img src="Imagenes/Pluton.png" alt=pluton id=img-pluton>
+
+        <div class="row row-vacia"></div>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="marte"></a>
+                <h1>Marte</h1>
+                <img src="Imagenes/Marte.png" alt=marte id=img-marte>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño
+                     del sistema solar, después de Mercurio. Recibió su nombre en homenaje al dios de
+                      la guerra de la mitología romana (Ares en la mitología griega), y también es conocido
+                       como «el planeta rojo» debido a la apariencia rojiza que le confiere el óxido de
+                        hierro predominante en su superficie. Marte es el planeta interior más alejado del Sol.
+                         Es un planeta telúrico con una atmósfera delgada de dióxido de carbono, y posee dos
+                          satélites pequeños y de forma irregular, Fobos y Deimos (hijos del dios griego),
+                           que podrían ser asteroides capturados​ similares al asteroide troyano (5261) Eureka.
+                            Sus características superficiales recuerdan tanto a los cráteres de la Luna como a
+                            los valles, desiertos y casquetes polares de la Tierra.</p>
+    
+                            <br>Diámetro: 6794,4 km
+                            <br>Densidad: 3,9335 g/cm³
+                            <br>Área de superficie: 144 798 500 km²
+                            <br>Gravedad: 3,711 m/s²
+                            <br>
+                            <a href="https://es.wikipedia.org/wiki/Marte_(planeta)">Más info!</a>
+            </div>
         </div>
-        <div style="margin-top:100px;" class="div-centrado div-derecho div-text div-texto-importante">
-            <p>Plutón, designado (134340) Pluto, es un planeta enano del sistema solar
-                 situado a continuación de la órbita de Neptuno. Su nombre se debe al dios
-                  mitológico romano Plutón (Hades según la mitología griega). En la Asamblea
-                   General de la Unión Astronómica Internacional celebrada en Praga el 24 de 
-                   agosto de 2006 se creó una nueva categoría llamada plutoide, en la que se incluye
-                    a Plutón. Es también el prototipo de una categoría de objetos transneptunianos
-                     denominada plutinos. Plutón posee una órbita excéntrica y altamente inclinada
-                      con respecto a la eclíptica, que recorre acercándose en su perihelio hasta el
-                       interior de la órbita de Neptuno. Asimismo posee también cinco satélites: Caronte,
-                        Nix, Hidra, Cerbero y Estigia,​ los cuales son cuerpos celestes que comparten 
-                        esa misma categoría</p>
+        
 
-                        <br>Diámetro: 2370 km
-                        <br>Densidad: 1750 kg/m³
-                        <br>Área de superficie: 17 000 000 km²
-                        <br>Gravedad: 0,6 m/s²
+
+        <div class="row row-vacia"></div>
+
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="jupiter"></a>
+                <h1>Jupiter</h1>
+                <a name="Jupiter"></a><img src="Imagenes/Jupiter.png" alt=jupiter id=img-jupiter>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Júpiter es el quinto planeta del sistema solar. Forma parte de los denominados planetas
+                     exteriores o gaseosos. Recibe su nombre del dios romano Júpiter (Zeus en la mitología griega).
+    
+                    Se trata del planeta que ofrece un mayor brillo a lo largo del año dependiendo de su fase.
+                     Es, además, después del Sol, el mayor cuerpo celeste del sistema solar, con una masa
+                      casi dos veces y media la de los demás planetas juntos (con una masa 318 veces mayor
+                       que la de la Tierra y tres veces mayor que la de Saturno, además de ser, en cuanto
+                        a volumen, 1317 veces más grande que la Tierra). También es el planeta más antiguo 
+                        del sistema solar, siendo incluso más antiguo que el sol; este descubrimiento fue 
+                        realizado por investigadores de la universidad de Münster en Alemania.</p>
+    
+                        <br>Diámetro: 142 984 km
+                        <br>Densidad: 1336 kg/m³
+                        <br>Área de superficie: 6,41 × 10^10 km²
+                        <br>Gravedad: 24.79 m/s²
                         <br>
-                        <a href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)">Más info!</a>
+                        <a href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)">Más info!</a>
+            </div>
         </div>
+        
+
+
+        <div class="row row-vacia"></div>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="saturno"></a>
+                <h1>Saturno</h1>
+                <img src="Imagenes/Saturno.png" alt=saturno id=img-saturno>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Saturno es el sexto planeta del sistema solar contando desde el Sol, 
+                    el segundo en tamaño y masa después de Júpiter y el único con un sistema 
+                    de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno.
+                     Forma parte de los denominados planetas exteriores o gaseosos. El aspecto más
+                      característico de Saturno son sus brillantes anillos. Antes de la invención del telescopio,
+                       Saturno era el más lejano de los planetas conocidos y, a simple vista, no parecía luminoso
+                        ni interesante. El primero en observar los anillos fue Galileo en 1610,1​ pero la baja
+                         inclinación de los anillos y la baja resolución de su telescopio le hicieron pensar
+                          en un principio que se trataba de grandes lunas. Christiaan Huygens, con mejores medios
+                           de observación, pudo en 1659 observar con claridad los anillos.</p>
+    
+                           <br>Diámetro: 120 536 km
+                           <br>Densidad: 690 kg/m³
+                           <br>Área de superficie: 4,38×10^16 m²
+                           <br>Gravedad: 10,44 m/s²
+                           <br>
+                           <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)">Más info!</a>
+            </div>
+        </div>
+
+
+        <div class="row row-vacia"></div>
+
+
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="urano"></a>
+                <h1>Urano</h1>
+                <img src="Imagenes/Urano.png" alt=urano id=img-urano>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño,
+                     y el cuarto más masivo. Se llama así en honor de la divinidad griega del
+                      cielo Urano (del griego antiguo Οὐρανός), el padre de Crono (Saturno) y 
+                      el abuelo de Zeus (Júpiter). Aunque es detectable a simple vista en el cielo nocturno,
+                       no fue catalogado como planeta por los astrónomos de la antigüedad debido a su escasa
+                        luminosidad y a la lentitud de su órbita. Sir William Herschel anunció su
+                         descubrimiento el 13 de marzo de 1781, ampliando las fronteras entonces
+                          conocidas del sistema solar, por primera vez en la historia moderna.
+                           Urano es también el primer planeta descubierto por medio de un telescopio.</p>
+    
+                           <br>Diámetro: 51.118 km
+                           <br>Densidad: 1,274 g/cm³
+                           <br>Área de superficie: 8,115 6×10^9 km²
+                           <br>Gravedad: 8,69 m/s²
+                           <br>
+                           <a href="https://es.wikipedia.org/wiki/Urano_(planeta)">Más info!</a>
+            </div>
+        </div>
+        
+        <div class="row row-vacia"></div>
+
+
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="neptuno"></a>
+                <h1>Neptuno</h1>
+                <img src="Imagenes/Neptuno.png" alt=neptuno id=img-neptuno>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema 
+                    solar. Forma parte de los denominados planetas exteriores, y dentro de estos,
+                     es uno de los gigantes helados, y es el primero que fue descubierto gracias a 
+                     predicciones matemáticas. Su nombre fue puesto en honor al dios romano del mar —Neptuno—,
+                      y es el cuarto planeta en diámetro y el tercero más grande en masa. Su masa es diecisiete
+                       veces la de la Tierra y ligeramente mayor que la de su planeta «gemelo» Urano, 
+                       que tiene quince masas terrestres y no es tan denso. En promedio, Neptuno orbita el Sol
+                        a una distancia de 30,1 ua. Su símbolo astronómico es ♆, una versión estilizada del 
+                        tridente del dios Neptuno.
+    
+                    Tras el descubrimiento de Urano, se observó que las órbitas de Urano,
+                     Saturno y Júpiter no se comportaban tal como predecían las leyes de Kepler
+                      y de Newton. Adams y Le Verrier, de forma independiente, calcularon la posición
+                       de un hipotético planeta, Neptuno, que finalmente fue encontrado por Galle, el 23
+                        de septiembre de 1846, a menos de un grado de la posición calculada por Le Verrier.
+                         Más tarde se advirtió que Galileo ya había observado Neptuno en 1612, pero lo había
+                          confundido con una estrella.</p>
+    
+                          <br>Diámetro: 49.572 km
+                          <br>Densidad: 1,64 g/cm³
+                          <br>Área de superficie: 7,65×10^9km²
+                          <br>Gravedad: 11,15 m/s²
+                          <br>
+                          <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)">Más info!</a>
+            </div>
+        </div>
+        
+
+        <div class="row row-vacia"></div>
+
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-planeta">
+                <a name="pluton"></a>
+                <h1>Pluton</h1>
+                <img src="Imagenes/Pluton.png" alt=pluton id=img-pluton>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12 div-centrado div-text div-texto-importante">
+                <p>Plutón, designado (134340) Pluto, es un planeta enano del sistema solar
+                     situado a continuación de la órbita de Neptuno. Su nombre se debe al dios
+                      mitológico romano Plutón (Hades según la mitología griega). En la Asamblea
+                       General de la Unión Astronómica Internacional celebrada en Praga el 24 de 
+                       agosto de 2006 se creó una nueva categoría llamada plutoide, en la que se incluye
+                        a Plutón. Es también el prototipo de una categoría de objetos transneptunianos
+                         denominada plutinos. Plutón posee una órbita excéntrica y altamente inclinada
+                          con respecto a la eclíptica, que recorre acercándose en su perihelio hasta el
+                           interior de la órbita de Neptuno. Asimismo posee también cinco satélites: Caronte,
+                            Nix, Hidra, Cerbero y Estigia,​ los cuales son cuerpos celestes que comparten 
+                            esa misma categoría</p>
+    
+                            <br>Diámetro: 2370 km
+                            <br>Densidad: 1750 kg/m³
+                            <br>Área de superficie: 17 000 000 km²
+                            <br>Gravedad: 0,6 m/s²
+                            <br>
+                            <a href="https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)">Más info!</a>
+            </div>
+        </div>
+        
+        <div class="row row-vacia"></div>
 </div>
 
-</div>
 </body>
 </html>
