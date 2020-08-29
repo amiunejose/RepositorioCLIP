@@ -6,8 +6,13 @@
     margin-left:5px;
     margin-top:10px;
     margin-bottom:10px;
+    transition: 0.3s
 }
 
+.Planeta-mini:hover
+{
+    transform:scale(1.2);   
+}
 
 #mercurio-mini
 {
