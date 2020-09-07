@@ -1,0 +1,38 @@
+#master
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+
+}
+
+.text-claro
+{
+    font-family: 'Space Mono', monospace;
+    color:white
+}
+
+.div-adivinanza
+{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:60px;
+    background-color: rgb(63, 155, 116);
+}
+
+#btn-intentar
+{
+    margin:10px
+}
+
+p
+{
+    font-size:16px;
+}
+
+#texto-salida
+{
+    color:red;
+}
