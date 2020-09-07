@@ -11,8 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-}
+
     <link href="Css/css_general.css" rel="stylesheet" />
+    <link href="Css/css_juegos.css" rel="stylesheet" />
     
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
 
@@ -22,26 +23,49 @@
 <body background="Imagenes/inicio_fondoEspacio.jpg" >
 
 
-    <div class="div-titulo container-fluid" style="text-align: center;">
+<div class="container-fluid" id="master">
+
+    <div class="div-titulo container-fluid" style="text-align: center ;padding:0;">
         <h2 class="texto-no-margin">SPACESHIP!</h2>
-        <h6 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h6>
+        <h4 class="texto-no-margin">"Aprender es la mejor manera de viajar"</h4>
     </div>
+
 
 
     <div class="container-fluid" style="background-color: rgb(0, 0, 0); ">
 
-        <div class="row ">
-            <div class="div-nav-bar col-4"> 
-                <a class="link-limpio" href="index.html">Home </a>
+        <div class="row">
+            <div class="div-nav-bar col-sm-4 col-12 "> 
+                    <a class="link-limpio" href="index.html">Home </a>
             </div>
-            <div class="div-nav-bar col-4" >
-                <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
+            <div class="div-nav-bar col-sm-4 col-12">
+                    <a class="link-limpio" href="sistema_solar.html">Sistema Solar </a>
             </div>
-            <div class="div-nav-bar col-4">
-                <a class="link-limpio" href="juegos.html">Juegos</a>
-            </div> 
+            <div class="div-nav-bar col-sm-4 col-12">
+                    <a class="link-limpio" href="juegos.html">Juegos</a>
+            </div>
         </div>
     </div>
+
+
+</div>
+
+
+
+<div class="container" style="margin-top:60px; text-align: center;">
+
+    <div class="container alert alert-danger">
+        <strong>Lo sentimos</strong> Aún no estan disponibles los Juegos en este sitio web!
+    </div>
+
+    <a href="index.html" class="btn btn-light" role="button">Regresar a Home</a>
+
+
+
+</div>
+
+
+    
 
     
 

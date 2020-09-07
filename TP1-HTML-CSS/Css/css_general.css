@@ -8,6 +8,7 @@
     align-items: center;
 }
 
+
 th
 {
     padding:8px;
@@ -77,4 +78,22 @@ footer
 {
     color:white;
     text-align: center;
+}
+
+
+
+@media (max-width:600px)
+{
+   h2
+   {
+       font-size: 40px;
+   } 
+   h4
+   {
+       font-size:18px
+   }
+   .div-nav-bar
+   {
+      font-size: 16px;
+   }
 }
