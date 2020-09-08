@@ -32,7 +32,26 @@ p
     font-size:16px;
 }
 
-#texto-salida
+h1 , h2
 {
-    color:red;
+    font-size:50px;
+}
+
+h4
+{
+    font-size:30px;
+}
+
+#text-respuesta
+{
+    width: 600px;
+}
+
+@media (max-width:600px)
+{
+    h1,h2 { font-size: 8.5vw;}
+
+    h4 { font-size: 6vw;}
+
+    #text-respuesta{width: 100%;}
 }
